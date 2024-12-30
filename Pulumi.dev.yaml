@@ -1,0 +1,11 @@
+config:
+  aws:region: us-east-1
+  blog-minecraft-automation:allowedCidrRanges: '["47.204.250.96/32"]'
+  blog-minecraft-automation:instanceType: t4g.small
+  blog-minecraft-automation:amiSsm: /aws/service/ami-amazon-linux-latest/al2023-ami-kernel-default-arm64
+  blog-minecraft-automation:tagKey: app
+  blog-minecraft-automation:tagValue: minecraft-blog
+  blog-minecraft-automation:route53HostName: blogminecraft.wanfooru.com
+  blog-minecraft-automation:route53ZoneId: Z01322833I96GV0X0FMD7
+  blog-minecraft-automation:vpcCidr: 10.0.0.0/16
+  blog-minecraft-automation:keypair: grimlock
